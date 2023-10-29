@@ -7,8 +7,7 @@
 .parent{
     display: flex;
     justify-content: center;
-    align-self: center;
-    margin-top: 10%;
+    margin-top: 10rem;
 }
 .left_side{
     display: flex;
@@ -118,12 +117,6 @@
     padding: 0.6rem;
     color: hsl(0, 0%, 100%);
 }
-.attribution{
-    display: flex;
-    justify-content: center;
-    margin-top: 1rem;
-    
-}
 @media  (min-width:319px )and (max-width:425px){
     .parent{
         display: block;
@@ -142,10 +135,4 @@
     .continue{
         width: 100%;
     }
-    .attribution{
-        font-size: 0.3rem;
-        display: flex;
-        flex-direction: column;
-    }
-   
 }
